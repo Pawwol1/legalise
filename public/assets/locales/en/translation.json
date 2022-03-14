@@ -1,0 +1,91 @@
+{
+  "language": "Language",
+  "reference": "Reference",
+  "choose": "Choose language",
+  "random": "Show random",
+  "light": "Change to night mode:",
+  "dark": "Change to day mode:",
+  "offers": "We offer you help in the field",
+  "links": [
+    {
+      "id": 1,
+      "url": "#mission",
+      "text": "Mission"
+    },
+    {
+      "id": 2,
+      "url": "#offer",
+      "text": "Offer"
+    },
+    {
+      "id": 3,
+      "url": "#reference",
+      "text": "Reference"
+    },
+    {
+      "id": 4,
+      "url": "#calculator",
+      "text": "Pricing"
+    },
+    {
+      "id": 5,
+      "url": "#contact",
+      "text": "Contact"
+    }
+  ],
+  "offer": [
+  {
+    "id": 1,
+    "title": "Temporary stay",
+    "info": [
+      "Performing work", "Economic activity", "Full-time university studies", "Staying with a citizen of the Republic of Poland", "Staying with a foreigner", "Seasonal work", "Human and child rights", "Appeal against a decision", "Complaints to WSA and NSA "
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Permanent residence",
+    "info": [
+      "Granting a permit", "Refusal to initiate proceedings", "Refusal to grant a permit", "Withdrawal of permit", "Expiry of permit", "Complaints to the Provincial Administrative Court and Supreme Administrative Court"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Work",
+    "info": [
+      "Work permit", "Employment declaration", "Seasonal work permit", "Posting an employee", "Tax law", "Social insurance", "Employment agency", "Economic activity"
+    ]
+  }
+],
+   "reviews": [
+    {
+      "id": 1,
+      "name": "Natalia Zalewska",
+      "text": "Full professed !!! Nice, specific service and very professional. Great prices, I recommend it !!!"
+    },
+    {
+      "id": 2,
+      "name": "Olena Novakov",
+      "text": "The answer to my question was 100% exhaustive. I really like \"that if any further questions arise, they can be asked for no extra charge.\" I will definitely use this website whenever I need help. Additionally, responses are provided very quickly"
+    },
+    {
+      "id": 3,
+      "name": "Albert Andrzejewski",
+      "text": "I recommend it to everyone !!!! Fantastic service: fast and professional. Thank you with all my heart on behalf of myself and my wife. I wish you all the best."
+    },
+    {
+      "id": 4,
+      "name": "Oktawian Walczak",
+      "text": "Very professional, competent service. The service was performed quickly and at the highest level at a good price! I recommend it!"
+    },
+    {
+      "id": 5,
+      "name": "Klaudia Wiśniewska",
+      "text":
+      "I received the answer to my question very quickly. Immediately after sending the follow-up question. The answer fully satisfied me. She was concrete and professional, supported by the law. If I have any legal problems in the future, I will definitely use this portal."
+    },
+    {   "id": 6,
+      "name": "Marian Krupa",
+      "text": "Super professional and responsible work, everything is done competently and quickly! 5 +++"
+    }
+  ]
+}
