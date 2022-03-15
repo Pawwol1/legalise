@@ -6,6 +6,16 @@
   "light": "Change to night mode:",
   "dark": "Change to day mode:",
   "offers": "We offer you help in the field",
+  "home": {
+    "welcome": "Welcome to ",
+    "welcome_msg": " is a response to the needs of foreigners who want to find their place in a new country more efficiently and quickly.",
+    "btn1": "Find out more",
+    "btn2": "Contact"
+  },
+  "mission": {
+    "title": "LEGALISE mission",
+    "about": "The need to share knowledge, experience and the willingness to help are the main reasons why this activity was established. LEGALISE is an alternative to unreliable advisors, unregistered companies and \"lawyers\" who suddenly stop answering phone calls and leave their clients \"to fend for themselves\". Looking for someone who has experience and at the same time a partner-like and honest approach to the client? Have a problem or doubts? Speak up - together we will find the best possible solution. "
+  },
   "links": [
     {
       "id": 1,

@@ -6,6 +6,16 @@
   "light": "Zmień tryb na nocny:",
   "dark": "Zmień tryb na dzienny:",
   "offers": "Oferujemy Państwu pomoc w dziedzinie",
+  "home": {
+    "welcome": "Witaj w ",
+    "welcome_msg": " to odpowiedź na potrzeby cudzoziemców, którzy chcą sprawniej i szybciej odnaleźć się w nowym kraju.",
+    "btn1": "Dowiedz się więcej",
+    "btn2": "Kontakt"
+  },
+  "mission": {
+    "title": "Misja LEGALISE",
+    "about": "Potrzeba dzielenia się wiedzą, doświadczeniem i chęć pomocy to główne powody, dla których powstała ta działalność. Firma LEGALISE jest alternatywą dla nierzetelnych doradców, niezarejestrowanych firm i „prawników”, którzy nagle przestają odbierać telefony i zostawiają klientów „samych sobie”. Szukasz kogoś, kto ma doświadczenie, a przy tym partnerskie i pełne szczerości podejście do klienta? Masz problem lub wątpliwości? Odezwij się – wspólnie znajdziemy najlepsze możliwe rozwiązanie."
+  },
   "links": [
     {
       "id": 1,

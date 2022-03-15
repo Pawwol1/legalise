@@ -6,7 +6,7 @@ main {
   color: var(--clr-grey-1);
   .container {
     width: 90vw;
-    max-width: var(--fixed-width);
+    max-width: var(--max-width);
     .title {
       text-align: center;
       margin-bottom: 4rem;
@@ -32,7 +32,7 @@ main {
         margin-bottom: 0.25rem;
       }
       .info {
-        margin-bottom: 0.75rem;
+        margin: 0 1rem;
       }
     }
   }

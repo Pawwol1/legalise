@@ -1,0 +1,43 @@
+.mission_box {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  display: flex;
+}
+
+.freedom {
+  display: none
+}
+
+.mission_text_box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  p {
+    text-justify: distribute-all-lines;
+    font-size: 17px;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+  .freedom {
+    display: block;
+    width: 25rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .freedom {
+      width: 32rem;
+      margin-right: 1rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+  .freedom {
+    width: 40rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,5 +1,7 @@
 @import "reset";
 @import "navbar";
+@import "home";
+@import "mission";
 @import "offer";
 @import "review";
 
@@ -48,7 +50,7 @@ Variables
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
-  --fixed-width: 920px;
+  --fixed-width: 1020px;
 }
 .dark-theme {
   --clr-primary-7: hsl(205, 72%, 37%);

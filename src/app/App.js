@@ -4,16 +4,20 @@ import Navbar from "./navbar";
 import Language from "./language";
 import Darkmode from "./darkmode";
 import OfferBox from "./offer";
+import Home from "./home"
+import Mission from "./mission";
 
 function App() {
   return (
       <>
-      <header id="home">
+      <header >
           <Navbar/>
           <Language/>
           <Darkmode/>
       </header>
       <main>
+          <Home id="home"/>
+          <Mission/>
           <OfferBox/>
           <Review />
       </main>
