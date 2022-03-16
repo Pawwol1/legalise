@@ -6,6 +6,7 @@ import Darkmode from "./darkmode";
 import OfferBox from "./offer";
 import Home from "./home"
 import Mission from "./mission";
+import Contact from "./contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Mission/>
           <OfferBox/>
           <Review />
+          <Contact/>
       </main>
       </>
   );

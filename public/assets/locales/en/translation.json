@@ -97,5 +97,22 @@
       "name": "Marian Krupa",
       "text": "Super professional and responsible work, everything is done competently and quickly! 5 +++"
     }
-  ]
+  ],
+  "contact": {
+    "error": "Please enter a value in each text box",
+    "success": "Form Submitted Successfully",
+    "sent": "Your message has been sent",
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "send_message_text": "Send us a message",
+    "send_msg_btn": "Send Message",
+    "contact_us": "Contact us",
+    "info": "Please do not hesitate to contact us. With us, you have a great chance for a positive result!",
+    "address": " Address:",
+    "phone": " Phone:",
+    "email_show": " Email:",
+    "website": " Website:"
+  }
 }

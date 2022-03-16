@@ -97,5 +97,22 @@
       "name": "Marian Krupa",
       "text": "Super profesjonalna i odpowiedzialna praca, wszystko odbywa się kompetentnie i szybko! 5+++"
     }
-  ]
+  ],
+  "contact": {
+    "error": "Proszę o wpisanie wartości w każdym polu tekstowym",
+    "success": "Formularz przesłany pomyślnie",
+    "sent": "Twoja wiadomość została wysłana",
+    "name": "Imię",
+    "email": "Email",
+    "subject": "Temat",
+    "message": "Wiadomość",
+    "send_message_text": "Napisz do nas",
+    "send_msg_btn": "Wyślij",
+    "contact_us": "Skontaktuj się z nami",
+    "info": "Zapraszamy do kontaktu. Z nami masz dużą szansę na pozytywny wynik!",
+    "address": " Adres:",
+    "phone": " Telefon:",
+    "email_show": " Email:",
+    "website": " Strona:"
+  }
 }

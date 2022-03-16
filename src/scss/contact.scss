@@ -1,0 +1,143 @@
+.contact-section {
+  padding: 7em 0;
+}
+
+.wrapper {
+  width: 100%;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  &:hover {
+    box-shadow: var(--dark-shadow);
+  }
+}
+
+.contact-wrap {
+  background: var(--clr-primary-8);
+  h3 {
+    color: var(--clr-title);
+  }
+}
+
+.img_form {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.form-control {
+  height: 62px;
+  background: transparent !important;
+  color: var(--clr-title);
+  font-size: 16px;
+  border-radius: 0;
+  box-shadow: none !important;
+  border: 1px solid var(--clr-title);
+  &::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: var(--clr-title) !important;
+  }
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--clr-title) !important;
+  }
+  &:-ms-input-placeholder {
+    /* IE 0+ */
+    color: var(--clr-title) !important;
+  }
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--clr-title) !important;
+  }
+  &:focus,
+  &:active {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+  }
+}
+
+textarea.form-control {
+  height: inherit;
+  margin-top: 5px;
+}
+
+
+.contactForm {
+  .form-control {
+    border: none;
+    border-bottom: 1px solid var(--clr-title);
+    padding: 0;
+  }
+}
+
+.btn_form {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.btn-form-primary {
+  background: var(--clr-primary-10);
+  border-color: var(--clr-primary-10);
+  color: var(--clr-primary-5);
+  &:hover {
+    background: var(--clr-primary-5);
+    color: var(--clr-primary-1);
+  }
+}
+
+.info-wrap {
+  h3 {
+    color: var(--clr-title);
+  }
+  .dbox {
+    width: 100%;
+    margin-bottom: 25px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    p {
+      margin-bottom: 0;
+      span {
+        font-weight: 400;
+        color: var(--clr-title);
+      }
+      a {
+        color: var(--clr-grey-3);
+        transition: 0.3s all ease;
+        text-decoration: none;
+        &:hover,
+        &:focus {
+          text-decoration: none;
+          outline: none;
+          box-shadow: none;
+        }
+      }
+
+    }
+    .icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 1px solid var(--clr-title);
+      margin-right: 5px;
+      span {
+        font-size: 20px;
+        color: var(--clr-title);
+      }
+    }
+    .text {
+      width: calc(100% - 50px);
+    }
+  }
+}
+
+
+
+#contactForm {
+  .form-control {
+    font-size: 16px;
+  }
+}
