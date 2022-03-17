@@ -6,6 +6,7 @@
   "light": "Change to night mode:",
   "dark": "Change to day mode:",
   "offers": "We offer you help in the field",
+  "price_list" : "Price list:",
   "home": {
     "welcome": "Welcome to ",
     "welcome_msg": " is a response to the needs of foreigners who want to find their place in a new country more efficiently and quickly.",
@@ -48,14 +49,14 @@
     "id": 1,
     "title": "Temporary stay",
     "info": [
-      "Performing work", "Economic activity", "Full-time university studies", "Staying with a citizen of the Republic of Poland", "Staying with a foreigner", "Seasonal work", "Human and child rights", "Appeal against a decision", "Complaints to WSA and NSA "
+      "Performing work", "Economic activity", "Full-time university studies", "Staying with a citizen of the Republic of Poland", "Staying with a foreigner", "Seasonal work", "Human and child rights", "Appeal against a decision", "Complaints to the Provincial and Supreme Administrative Court"
     ]
   },
   {
     "id": 2,
     "title": "Permanent residence",
     "info": [
-      "Granting a permit", "Refusal to initiate proceedings", "Refusal to grant a permit", "Withdrawal of permit", "Expiry of permit", "Complaints to the Provincial Administrative Court and Supreme Administrative Court"
+      "Granting a permit", "Refusal to initiate proceedings", "Refusal to grant a permit", "Withdrawal of permit", "Expiry of permit", "Complaints to the Provincial and Supreme Administrative Court"
     ]
   },
   {

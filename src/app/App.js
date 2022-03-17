@@ -7,6 +7,7 @@ import OfferBox from "./offer";
 import Home from "./home"
 import Mission from "./mission";
 import Contact from "./contact";
+import PriceList from "./price_list";
 
 function App() {
   return (
@@ -21,8 +22,11 @@ function App() {
           <Mission/>
           <OfferBox/>
           <Review />
-          <Contact/>
+          <PriceList/>
       </main>
+       <footer>
+           <Contact/>
+       </footer>
       </>
   );
 }
