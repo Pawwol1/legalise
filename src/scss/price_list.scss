@@ -44,7 +44,7 @@ table {
     margin-top: 1px;
     td {
     border: 1px solid var(--clr-title);
-    height: 40px;
+    min-height: 40px;
     padding: 5px;
     text-justify: auto;
     }
