@@ -21,7 +21,7 @@ function PriceList() {
                 snapshot.docs.forEach(doc => {
                     prices.push({ ...doc.data(), id: doc.id})
                 })
-                console.log(prices)
+                // console.log(prices)
                 setTemp(prices)
             })
             .catch(err => {
@@ -33,7 +33,7 @@ function PriceList() {
                 snapshot.docs.forEach(doc => {
                     prices.push({ ...doc.data(), id: doc.id})
                 })
-                console.log(prices)
+                // console.log(prices)
                 setPerm(prices)
             })
             .catch(err => {
@@ -45,7 +45,7 @@ function PriceList() {
                 snapshot.docs.forEach(doc => {
                     prices.push({ ...doc.data(), id: doc.id})
                 })
-                console.log(prices)
+                // console.log(prices)
                 setWork(prices)
             })
             .catch(err => {
@@ -70,7 +70,7 @@ function PriceList() {
                             {temp.map((product, idx) => {
                                 const { id, price } = product;
                                 return (
-                            <tr><td key={id}>{t(`offer.0.info.${idx}`)}: {price}zł</td></tr>
+                            <tr key={id}><td>{t(`offer.0.info.${idx}`)}: {price}zł</td></tr>
                                 );
                             })}
                         </tbody>
@@ -84,7 +84,7 @@ function PriceList() {
                         {perm.map((product, idx) => {
                             const { id, price } = product;
                             return (
-                                <tr><td key={id}>{t(`offer.1.info.${idx}`)}: {price}zł</td></tr>
+                                <tr key={id}><td>{t(`offer.1.info.${idx}`)}: {price}zł</td></tr>
                             );
                         })}
                         </tbody>
@@ -98,7 +98,7 @@ function PriceList() {
                         {work.map((product, idx) => {
                             const { id, price } = product;
                             return (
-                                <tr><td key={id}>{t(`offer.2.info.${idx}`)}: {price}zł</td></tr>
+                                <tr key={id}><td>{t(`offer.2.info.${idx}`)}: {price}zł</td></tr>
                             );
                         })}
                         </tbody>
