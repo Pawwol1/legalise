@@ -32,14 +32,12 @@ function Darkmode() {
     }, [theme]);
     const { t } = useTranslation()
     return (
-        <div className="container">
-            <div style={{maxWidth: 1225}} className="d-flex justify-content-end align-items-center">
+            <div style={{maxWidth: 200}} className="d-flex justify-content-end align-items-center">
                 {  icon ? t('dark') : t('light')}
-                <button className="toggle_btn" onClick={() => { toggleTheme(); toggleIcon();}}>
+                <button className="bg-transparent toggle_btn" onClick={() => { toggleTheme(); toggleIcon();}}>
                      {icon ? <SunIcon/> : <MoonIcon/>}
                 </button>
             </div>
-        </div>
     );
 }
 

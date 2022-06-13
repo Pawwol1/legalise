@@ -1,13 +1,13 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next'
-import freedom from "./images/freedom.jpg";
+import freedom from "../../images/freedom.jpg";
 
 
 function Mission() {
     const { t } = useTranslation()
 
     return (
-        <section className="container" id="mission">
+        <section className="container--mission" id="mission">
             <div className="mission_box">
                 <img src={freedom} alt="free" className="freedom" />
                 <div className="mission_text_box">

@@ -63,6 +63,7 @@ export default function Contact() {
                                             id="contactForm"
                                             className="contactForm"
                                             onSubmit={sendEmail}
+                                            autoComplete="off"
                                         >
                                             <div className="row">
                                                 <div className="col-md-12">
@@ -173,7 +174,7 @@ export default function Contact() {
                                             <div className="text pl-3">
                                                 <p>
                                                     <span>{t(`contact.website`)}</span>
-                                                    <a href="#home"> legalise.pl</a>
+                                                    <a href="src/app/components/contact/contact#home"> legalise.pl</a>
                                                 </p>
                                             </div>
                                         </div>

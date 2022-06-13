@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next'
-import { links, social } from './data/data';
-import logo from "./images/logo.png";
+import { links, social } from '../../data/data';
+import logo from "../../images/logo.png";
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
@@ -24,9 +24,9 @@ const Navbar = () => {
 
     return (
         <nav>
-            <div className='nav-center'>
+            <div className='nav-center' id="home">
                 <div className='nav-header'>
-                    <a href="#home"><img src={logo} className='logo' alt='logo'/></a>
+                    <a href='#home'><img src={logo} className='logo' alt='logo'/></a>
                     <button className='nav-toggle' onClick={toggleLinks}>
                         <FaBars />
                     </button>

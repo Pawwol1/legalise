@@ -3,8 +3,8 @@
   "reference": "Reference",
   "choose": "Choose language",
   "random": "Show random",
-  "light": "Change to night mode:",
-  "dark": "Change to day mode:",
+  "light": "Night mode:",
+  "dark": "Day mode:",
   "offers": "We offer you help in the field",
   "price_list" : "Price list:",
   "home": {

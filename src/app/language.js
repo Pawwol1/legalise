@@ -11,9 +11,7 @@ export default function Language() {
     const { t } = useTranslation()
 
     return (
-        <div className="container">
-            <div>
-                <div style={{maxWidth: 1225}} className="d-flex justify-content-end align-items-center language-select-root">
+                <div style={{maxWidth: 200}} className="d-flex justify-content-end align-items-center language-select-root">
                     <div className="dropdown"> {t(`choose`)}:
                         <button className="btn btn-link dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                             <GlobeIcon />
@@ -33,7 +31,5 @@ export default function Language() {
                         </ul>
                     </div>
                 </div>
-            </div>
-        </div>
     )
 }

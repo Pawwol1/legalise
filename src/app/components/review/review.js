@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {reviews} from './data/data';
+import {reviews} from '../../data/data';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next'
 

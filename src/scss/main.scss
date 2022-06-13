@@ -1,11 +1,11 @@
 @import "reset";
-@import "navbar";
-@import "home";
-@import "mission";
-@import "offer";
-@import "review";
-@import "price_list";
-@import "contact";
+@import "src/app/components/navbar/navbar";
+@import "src/app/components/home/home";
+@import "src/app/components/mission/mission";
+@import "src/app/components/offer/offer";
+@import "src/app/components/review/review";
+@import "src/app/components/price_list/price_list";
+@import "src/app/components/contact/contact";
 
 
 /*
@@ -100,6 +100,7 @@ body {
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
+  overflow-x: hidden;
 }
 footer {
   padding-top: 50rem;

@@ -1,24 +1,26 @@
 import React from 'react';
-import Review from './review';
-import Navbar from "./navbar";
+import Review from './components/review/review';
+import Navbar from "./components/navbar/navbar";
 import Language from "./language";
 import Darkmode from "./darkmode";
-import OfferBox from "./offer";
-import Home from "./home"
-import Mission from "./mission";
-import Contact from "./contact";
-import PriceList from "./price_list";
+import OfferBox from "./components/offer/offer";
+import Home from "./components/home/home"
+import Mission from "./components/mission/mission";
+import Contact from "./components/contact/contact";
+import PriceList from "./components/price_list/price_list";
 
 function App() {
   return (
       <>
       <header >
           <Navbar/>
-          <Language/>
-          <Darkmode/>
+          <div className="contain">
+              <Darkmode/>
+              <Language/>
+          </div>
       </header>
       <main>
-          <Home id="home"/>
+          <Home/>
           <Mission/>
           <OfferBox/>
           <Review />

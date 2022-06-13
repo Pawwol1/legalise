@@ -1,5 +1,5 @@
 import React from "react";
-import hands from "./images/hands.png";
+import hands from "../../images/hands.png";
 import { FaChevronRight } from "react-icons/fa";
 import { useTranslation } from 'react-i18next'
 
@@ -8,7 +8,7 @@ const Home = () => {
     const { t } = useTranslation()
 
     return (
-        <section className="home">
+        <section className="home" id="home">
             <div className="home-center">
                 <article className="home-info">
                     <h1>

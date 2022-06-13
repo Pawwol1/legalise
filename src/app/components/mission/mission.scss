@@ -1,8 +1,12 @@
-.mission_box {
-  margin-top: 8rem;
+.container--mission{
+  padding: 6rem 2rem;
+  max-width: var(--max-width);
+  .mission_box {
+  margin-top: 4rem;
   margin-bottom: 2rem;
   display: flex;
   justify-content: center;
+}
 }
 
 .freedom {
@@ -15,6 +19,7 @@
   justify-content: center;
   flex-direction: column;
   p {
+    text-align: justify;
     text-justify: distribute-all-lines;
     font-size: 17px;
   }

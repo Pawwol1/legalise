@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { AiOutlineMinus, AiOutlinePlus, AiOutlineCheckCircle } from 'react-icons/ai';
-import {offer} from './data/data';
+import {offer} from '../../data/data';
 import {useTranslation} from "react-i18next";
 
 export default function OfferBox() {

@@ -1,6 +1,9 @@
 header {
   background-color: var(--clr-grey-10);
   color: var(--clr-grey-1);
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 nav {
   background: var(--clr-white);
@@ -100,4 +103,12 @@ nav {
       }
     }
   }
+}
+
+.contain {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 auto;
+  max-width: 1170px;
+  z-index: 0;
 }
