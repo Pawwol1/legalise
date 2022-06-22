@@ -81,6 +81,7 @@ function PriceList() {
                                 );
                             })}
                         </ul>
+                        <div className="spacer"/>
                         <h5>Total price:</h5>
                     </div>
 
@@ -106,6 +107,7 @@ function PriceList() {
                                 );
                             })}
                         </ul>
+                        <div className="spacer"/>
                         <h5>Total price:</h5>
                     </div>
 
@@ -131,6 +133,7 @@ function PriceList() {
                                 );
                             })}
                         </ul>
+                        <div className="spacer"/>
                         <h5>Total price:</h5>
                     </div>
 
