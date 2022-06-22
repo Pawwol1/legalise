@@ -19,46 +19,40 @@
 }
 .title_contain {
   display: block;
-  margin: 2rem 0;
+  margin-top: 2rem;
   text-align: center;
+  h2 {
+    padding-left: 2rem;
+  }
 }
 .table_contain {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-evenly;
 }
 
-
-table {
-  width: 300px;
-  margin: 5px 0;
-  thead {
-    font-weight: bold;
-    text-align: center;
-    font-size: 18px;
-    margin: 1px;
-    th {
-      border: 1px solid var(--clr-title);
-    }
+.price_list--box {
+  width: 350px;
+  padding: 0 2rem;
+  h4 {
+    padding: 1rem 0;
   }
-  tbody {
-    margin-top: 1px;
-    td {
-    border: 1px solid var(--clr-title);
-    min-height: 40px;
-    padding: 5px;
-    text-justify: auto;
+}
+
+.price_list--list {
+  padding: 0;
+  li {
+    margin-bottom: 5px;
+    input {
+      margin-right: 5px;
     }
   }
 }
+
 
 @media screen and (min-width: 800px) {
   .table_contain {
     flex-direction: row;
     align-items: stretch;
-  }
-  table {
-    width: 380px;
   }
   .title_contain {
     text-align: left;

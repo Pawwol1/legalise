@@ -3,7 +3,6 @@ import { db } from "../../firebase";
 import { collection, getDocs } from "firebase/firestore";
 import {useTranslation} from "react-i18next";
 
-
 const colRef0 = collection(db, 'temp-stay')
 const colRef1 = collection(db, 'perm-residence')
 const colRef2 = collection(db, 'work')
@@ -21,7 +20,6 @@ function PriceList() {
                 snapshot.docs.forEach(doc => {
                     prices.push({ ...doc.data(), id: doc.id})
                 })
-                // console.log(prices)
                 setTemp(prices)
             })
             .catch(err => {
@@ -33,7 +31,6 @@ function PriceList() {
                 snapshot.docs.forEach(doc => {
                     prices.push({ ...doc.data(), id: doc.id})
                 })
-                // console.log(prices)
                 setPerm(prices)
             })
             .catch(err => {
@@ -45,7 +42,6 @@ function PriceList() {
                 snapshot.docs.forEach(doc => {
                     prices.push({ ...doc.data(), id: doc.id})
                 })
-                // console.log(prices)
                 setWork(prices)
             })
             .catch(err => {
@@ -62,47 +58,82 @@ function PriceList() {
                     <h2>{t(`price_list`)}</h2>
                 </div>
                 <div className="table_contain">
-                    <table>
-                        <thead>
-                            <tr><th>{t(`offer.0.title`)}</th></tr>
-                        </thead>
-                        <tbody>
+
+                    <div className="price_list--box">
+                        <h4>
+                            {t(`offer.0.title`)}
+                        </h4>
+                        <ul className="price_list--list">
                             {temp.map((product, idx) => {
                                 const { id, price } = product;
                                 return (
-                            <tr key={id}><td>{t(`offer.0.info.${idx}`)}: {price}zł</td></tr>
+                                    <li key={id}>
+                                        <label htmlFor={`temp ${id}`}>
+                                            <input
+                                                type="checkbox"
+                                                id={`temp ${id}`}
+                                                name={t(`offer.0.info.${idx}`)}
+                                                value={t(`offer.0.info.${idx}`)}
+                                            />
+                                            {t(`offer.0.info.${idx}`)}: <b>{price}zł</b>
+                                        </label>
+                                    </li>
                                 );
                             })}
-                        </tbody>
-                    </table>
+                        </ul>
+                        <h5>Total price:</h5>
+                    </div>
 
-                    <table>
-                        <thead>
-                            <tr><th>{t(`offer.1.title`)}</th></tr>
-                        </thead>
-                        <tbody>
-                        {perm.map((product, idx) => {
-                            const { id, price } = product;
-                            return (
-                                <tr key={id}><td>{t(`offer.1.info.${idx}`)}: {price}zł</td></tr>
-                            );
-                        })}
-                        </tbody>
-                    </table>
+                    <div className="price_list--box">
+                        <h4>
+                            {t(`offer.1.title`)}
+                        </h4>
+                        <ul className="price_list--list">
+                            {perm.map((product, idx) => {
+                                const { id, price } = product;
+                                return (
+                                    <li key={id}>
+                                        <label htmlFor={`perm ${id}`}>
+                                            <input
+                                                type="checkbox"
+                                                id={`perm ${id}`}
+                                                name={t(`offer.1.info.${idx}`)}
+                                                value={t(`offer.1.info.${idx}`)}
+                                            />
+                                            {t(`offer.1.info.${idx}`)}: <b>{price}zł</b>
+                                        </label>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                        <h5>Total price:</h5>
+                    </div>
 
-                    <table>
-                        <thead>
-                            <tr><th>{t(`offer.2.title`)}</th></tr>
-                        </thead>
-                        <tbody>
-                        {work.map((product, idx) => {
-                            const { id, price } = product;
-                            return (
-                                <tr key={id}><td>{t(`offer.2.info.${idx}`)}: {price}zł</td></tr>
-                            );
-                        })}
-                        </tbody>
-                    </table>
+                    <div className="price_list--box">
+                        <h4>
+                            {t(`offer.2.title`)}
+                        </h4>
+                        <ul className="price_list--list">
+                            {work.map((product, idx) => {
+                                const { id, price } = product;
+                                return (
+                                    <li key={id}>
+                                        <label htmlFor={`work ${id}`}>
+                                            <input
+                                                type="checkbox"
+                                                id={`work ${id}`}
+                                                name={t(`offer.2.info.${idx}`)}
+                                                value={t(`offer.2.info.${idx}`)}
+                                            />
+                                            {t(`offer.2.info.${idx}`)}: <b>{price}zł</b>
+                                        </label>
+                                    </li>
+                                );
+                            })}
+                        </ul>
+                        <h5>Total price:</h5>
+                    </div>
+
                 </div>
             </div>
         </div>
