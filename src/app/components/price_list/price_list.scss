@@ -22,7 +22,7 @@
   margin-top: 1rem;
   text-align: center;
   h2 {
-    padding: 0 0 1rem 1.5rem;
+    padding: 0 0 1rem 0;
   }
 }
 .table_contain {
@@ -37,7 +37,7 @@
   border-radius: 2rem;
   background: var(--clr-primary-8);
   box-shadow: var(--light-shadow);
-  width: 350px;
+  width: 290px;
   padding: 0 2rem;
   margin-bottom: 5px;
   &:hover {
@@ -70,12 +70,18 @@
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 850px) {
   .table_contain {
     flex-direction: row;
     align-items: stretch;
+    .price_list--box {
+      width: 350px;
+    }
   }
   .title_contain {
     text-align: left;
+    h2 {
+      padding: 0 0 1rem 1.5rem;
+    }
   }
 }
