@@ -6,13 +6,17 @@ import logo from "../../images/logo.png";
 
 const Navbar = () => {
     const [showLinks, setShowLinks] = useState(false);
+
     const linksContainerRef = useRef(null);
     const linksRef = useRef(null);
+
     const toggleLinks = () => {
         setShowLinks(!showLinks);
     };
+
     useEffect(() => {
         const linksHeight = linksRef.current.getBoundingClientRect().height;
+
         if (showLinks) {
             linksContainerRef.current.style.height = `${linksHeight}px`;
         } else {
@@ -20,13 +24,15 @@ const Navbar = () => {
         }
     }, [showLinks]);
 
+
     const { t } = useTranslation()
+    const homeUrl = "#home"
 
     return (
         <nav>
             <div className='nav-center'>
                 <div className='nav-header'>
-                    <a href="#home"><img src={logo} className='logo' alt='logo'/></a>
+                    <a href={homeUrl}><img src={logo} className='logo' alt='logo'/></a>
                     <button className='nav-toggle' onClick={toggleLinks}>
                         <FaBars />
                     </button>
@@ -36,8 +42,8 @@ const Navbar = () => {
                         {links.map((link) => {
                             const { id, url } = link;
                             return (
-                                <li key={id}>
-                                    <a href={url}>{t(`links.${id - 1}.text`)}</a>
+                                <li key={id} >
+                                    <a href={url}>{t(`links.${id - 1}.text`)} </a>
                                 </li>
                             );
                         })}
